@@ -16,6 +16,6 @@
         "verschoof/transip-api": "1.0.*"
     },
     "autoload": {
-        "psr-0": { "Transip-bundle\\": "lib/" }
+        "psr-0": { "TransipBundle\\": "" }
     }
 }

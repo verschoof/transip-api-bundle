@@ -1,6 +1,6 @@
 <?php
 
-namespace Verschoof\Bundle\Transip\ApiBundle;
+namespace Verschoof\TransipApiBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
