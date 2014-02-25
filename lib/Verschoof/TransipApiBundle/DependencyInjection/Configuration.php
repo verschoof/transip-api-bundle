@@ -13,15 +13,15 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('transip');
+        $rootNode = $treeBuilder->root('transip_api');
 
         $rootNode
             ->children()
-                ->booleanNode('login')
+                ->scalarNode('login')
                     ->isRequired()
                     ->cannotBeEmpty()
                 ->end()
-                ->booleanNode('private_key')
+                ->scalarNode('private_key')
                     ->isRequired()
                     ->cannotBeEmpty()
                 ->end()
