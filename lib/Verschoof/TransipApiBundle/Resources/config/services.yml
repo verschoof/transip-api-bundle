@@ -1,7 +1,9 @@
 parameters:
-#    transip_api.example.class: Transip\ApiBundle\Example
+    transip_api.service.class: "Verschoof\\TransipApiBundle\\Service\\TransIpService"
 
 services:
-#    transip_api.example:
-#        class: %transip_api.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    transip_api:
+        class: %transip_api.service.class%
+        arguments:
+            login      : "%transip_login%"
+            privatekey : "%transip_privatekey%"
