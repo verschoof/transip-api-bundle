@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "verschoof/transip-api": "1.0.*"
+        "verschoof/transip-api": "1.1.*"
     },
     "autoload": {
         "psr-0": { "Verschoof\\TransipApiBundle\\": "lib/" }
