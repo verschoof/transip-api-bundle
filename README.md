@@ -11,7 +11,7 @@ Edit your composer.json
 ```json
 "require": {
   ...
-  "verschoof/transip-api-bundle": "dev-master"
+  "verschoof/transip-api-bundle": "1.1.*"
 }
 ```
 
