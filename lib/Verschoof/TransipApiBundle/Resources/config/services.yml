@@ -5,5 +5,4 @@ services:
     transip_api:
         class: %transip_api.service.class%
         arguments:
-            login      : "%transip_login%"
-            privatekey : "%transip_privatekey%"
+            transip_config: "%transip_api%"
