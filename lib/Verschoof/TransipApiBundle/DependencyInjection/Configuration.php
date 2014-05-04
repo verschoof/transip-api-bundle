@@ -27,7 +27,6 @@ class Configuration implements ConfigurationInterface
                 ->end()
                 ->booleanNode('read_only')
                     ->isRequired()
-                    ->cannotBeEmpty()
                 ->end()
             ->end()
         ;
