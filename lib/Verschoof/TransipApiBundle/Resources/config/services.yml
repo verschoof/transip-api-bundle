@@ -1,5 +1,5 @@
 parameters:
-    transip_api.service.class: "Verschoof\\TransipApiBundle\\Service\\TransIpService"
+    transip_api.service.class: "Verschoof\\TransipApiBundle\\Service\\TransipService"
 
 services:
     transip_api:
