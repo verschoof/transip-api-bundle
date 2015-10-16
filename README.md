@@ -7,15 +7,12 @@ A Symfony2 bundle for the TransIP API
 Installation
 ============
 
-Edit your composer.json
-```json
-"require": {
-  ...
-  "verschoof/transip-api-bundle": "1.1.*"
-}
+Run the following command
+```sh
+composer require verschoof/transip-api-bundle
 ```
 
-Register bunle in AppKernel
+Register bundle in AppKernel
 ```php
 #app/AppKernel.php
 $bundles = array(
