@@ -3,6 +3,6 @@ parameters:
 
 services:
     transip_api:
-        class: %transip_api.service.class%
+        class: "%transip_api.service.class%"
         arguments:
             transip_config: "%transip_api%"
