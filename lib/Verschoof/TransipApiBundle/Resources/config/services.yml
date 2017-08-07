@@ -5,4 +5,4 @@ services:
     transip_api:
         class: "%transip_api.service.class%"
         arguments:
-            transip_config: "%transip_api%"
+            - transip_config: "%transip_api%"
