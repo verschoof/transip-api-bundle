@@ -1,3 +1,12 @@
+**DEPRECATED**
+==============
+The library that is used by this bundle is deprecated.
+INFO: https://www.transip.nl/nieuws/de-nieuwe-transip-rest-api-is-live/
+<br><br><br><br>
+
+Wrapper of the transip API
+
+
 transip-api-bundle
 ==================
 
