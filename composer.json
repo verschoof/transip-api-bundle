@@ -17,5 +17,6 @@
     },
     "autoload": {
         "psr-0": { "Verschoof\\TransipApiBundle\\": "lib/" }
-    }
+    },
+    "abandoned": "transip/transip-api-symfony"
 }
